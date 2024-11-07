@@ -20,8 +20,8 @@ seed_examples:
 document_outline: |
   This document container the 2024 Aviva car insurance policy details for the United Kingdom.
 document:
-  repo: https://github.com/<username>/<repo>.git
-  commit: <full commit SHA>
+  repo: https://github.com/RobbieJ/ilab-insurance/blob/main/output-md/policy.md
+  commit: 41614ea6d5f280fb750115338c75573e4860861c
   patterns:
-    - <FILENAME>.md
+    - policy.md
 
