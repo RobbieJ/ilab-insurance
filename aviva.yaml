@@ -1,0 +1,27 @@
+created_by: robbiej
+version: 3
+domain: insurance policy
+seed_examples:
+  - context: |
+    Had an accident?Tell us as soon as you can Go to Aviva.co.uk/make-a-claim or call us on 0345 030 6925 Our dedicated claims advisers are here to help you 24 hours a day, every day of the year
+    questions_and_answers:
+      - question: |
+         Where do I find details on how to make a claim?
+        answer: |
+          You can find details on making a claim by visiting Aviva.co.uk/make-a-claim or calling 0345 030 6925. Our claims advisers are available 24/7 to assist you.
+      - question: |
+         What phone number do I use to make a claim?
+        answer: |
+         You call 0345 030 6925.
+      - question: |
+         What is the Aviva website url to make a claim ?
+        answer: |
+         Aviva.co.uk/make-a-claim
+document_outline: |
+  This document container the 2024 Aviva car insurance policy details for the United Kingdom.
+document:
+  repo: https://github.com/<username>/<repo>.git
+  commit: <full commit SHA>
+  patterns:
+    - <FILENAME>.md
+
